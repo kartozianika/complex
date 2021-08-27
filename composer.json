@@ -1,0 +1,22 @@
+{
+  "name": "kartozianika/complex",
+  "description": "Complex numbers",
+  "homepage": "https://github.com/kartozianika/complex",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kartozia Nika",
+      "email": "kartozianika@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "phospr/fraction": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "psr-4": {"kartozianika\\complex\\": "src/"}
+  }
+}
